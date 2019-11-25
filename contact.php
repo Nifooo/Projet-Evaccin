@@ -19,15 +19,17 @@
       <div class="clear"></div>
 
       <div class="forminfo">
-          <input type="button" name="buton" value="Informations">
-          <div class="imagelogo">
-          <img src="asset/images/lettre.png" alt="">
-          <p>Email : email@gmail.com</p>
-          <img src="asset/images/tel.png" alt="">
-          <p>Téléphone : 02 45 45 45 45</p>
-          </div>
+          <p class="info">Informations</p>
+          <div class="bar"></div>
           <p class="found">Ou nous trouver ?</p>
-          <img class="marc" src="asset/images/saintmarc.png" alt="">
+          <div class="imagelogo">
+              <div class="email-logo"><img src="asset/images/lettre.png" alt="">
+                  <p>contact@evaccin.com</p></div>
+              <div class="tel-logo"><img src="asset/images/tel.png" alt="">
+                  <p>02 45 84 16 04</p></div>
+          </div>
+          <div class="cartelogo">
+              <img class="marc" src="asset/images/saintmarc.png" alt=""></div>
       </div>
       <div class="clear"></div>
     </section>

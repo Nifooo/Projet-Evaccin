@@ -416,8 +416,8 @@ div .connexion input[type=submit]:hover {
 .bar {
     width: 10%;
     height: 3px;
-    margin: 0 auto;
     background-color: #54b59a;
+    margin: 0 45.3%;
 }
 
 h5{
@@ -460,13 +460,13 @@ h5{
 .formpage #boutonenvoyer {
     width: 30%;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 0;
     border-radius: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.4em;
     background-color: #54B59A;
-    margin: 50px 35%;
+    margin: 80px 35.4%;
 }
 
 .formpage #boutonenvoyer:hover {
@@ -475,55 +475,56 @@ h5{
 
 
 
+/* INFO */
 
 
-.coninformation .info input{
-	background-color: #54b59a;
+
+
+.forminfo .info {
 	text-align: center;
-	font-size: 1.2em;
-  display: block;
-  margin: 0 auto;
-	max-width: 50%;
-	padding: 10px 40px;
-	border: none;
-  margin-bottom: 50px;
-  margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: black;
+    margin: 80px 0;
 }
 
-.coninformation .info{
-  color: #54b59a;
-  font-weight: bolder;
-  line-height: 60px;
+.forminfo {
+    color: #54b59a;
 }
 
-.coninformation .imagelogo img {
-  height: 25px;
-  width: 50px;
-  border-radius: 40px;
-  border: 1.5px solid #54b59a;
-  float: left;
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-top: 16px;
+.imagelogo {
+    float: left;
+    width: 50%;
+    background-color: red;
 }
 
-.coninformation .found {
-  text-align: center;
-  font-size: 1.2em;
+.imagelogo img {
+    width: 170px;
+    margin-left: 38%;
 }
 
-.coninformation .marc{
-  width: 120px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
+.email-logo p {
+    margin: 40px 38%;
 }
-.coninformation .marc:hover{
-  transform: scale(3.5);
-  transition: 0.5s;
-  margin-top: 125px;
-  margin-bottom: 125px;
+
+.tel-logo p {
+    margin-left: 42%;
+    margin-top: 30px;
 }
+
+.cartelogo {
+    float: left;
+    width: 50%;
+    background-color: green;
+}
+
+.forminfo .marc{
+    width: 351px;
+    display: block;
+    margin: 0 auto;
+}
+
+
 
 
 
