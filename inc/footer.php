@@ -18,13 +18,15 @@
                     <li><a href="#">Aide et FAQ</a></li>
                     <li><a href="#">Conditions Générales d'Utilisation</a></li>
                     <li><a href="#">Politique de Protection des Données Personnelles</a></li>
+                    <li><a href="popup.php">popup</a></li>
+                    <li><a href="mes-vaccins.php">mes vaccins</a></li>
                 </ul>
             </nav>
             <div class="reseaufooter">
-                <img src="asset/images/facebook.png" alt="logo facebook">
-                <img src="asset/images/twitter.png" alt="logo facebook">
-                <img src="asset/images/instagram.png" alt="logo facebook">
-                <img src="asset/images/linkedin.png" alt="logo facebook">
+                <a href="https://www.facebook.com/" target="_blank"><img src="asset/images/facebook.png" alt="logo facebook"></a>
+                <a href ="https://twitter.com/" target="_blank"><img src="asset/images/twitter.png" alt="logo twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="asset/images/instagram.png" alt="logo instagram"></a>
+                <a href="https://fr.linkedin.com/" target="_blank"><img src="asset/images/linkedin.png" alt="logo linkedin"></a>
             </div>
         </div>
         <div class="clear"></div>

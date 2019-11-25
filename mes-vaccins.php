@@ -25,7 +25,7 @@
 
     <section id="section2">
       <div class="wrap">
-        <h6>Mes vaccins:</h6>
+        <h6>Mes vaccins :</h6>
         <table>
           <tr>
             <th>Nom du vaccin</th>
@@ -52,7 +52,7 @@
         <p>Vaccins obligatoires</p>
         <img src="asset/images/color-blue.png" alt="couleur bleue">
         <p>Vaccins facultatifs</p>
-        <a href="#"><span>+</span> ajouter vaccin</a>
+        <a href="popup.php"><span>+</span> ajouter vaccin</a>
       </div>
       <div class="clear"></div>
     </section>
