@@ -13,16 +13,14 @@
           <textarea name="message" rows="8" cols="8">Votre texte...</textarea>
           <input id="boutonenvoyer" type="submit" name="submit" value="Envoyer">
         </form>
-
       </div>
+        <div class="bar"></div>
+
       <div class="clear"></div>
 
-      </div>
-      <div class="coninformation">
-        <div class="info">
+      <div class="forminfo">
           <input type="button" name="buton" value="Informations">
           <div class="imagelogo">
-
           <img src="asset/images/lettre.png" alt="">
           <p>Email : email@gmail.com</p>
           <img src="asset/images/tel.png" alt="">
@@ -30,7 +28,6 @@
           </div>
           <p class="found">Ou nous trouver ?</p>
           <img class="marc" src="asset/images/saintmarc.png" alt="">
-        </div>
       </div>
       <div class="clear"></div>
     </section>
