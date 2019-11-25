@@ -4,7 +4,7 @@
     <div class="bar"></div>
     <h5>Envoyez votre message ici</h5>
     <section id="pagecontact">
-      <div class="conformulaire">
+      <div class="formpage">
         <form class="" action="accueil.html" method="post">
           <input id="nom"type="text" name="Nom" value="" placeholder="Votre Nom">
           <input id="prenom" type="text" name="Prénom" value="" placeholder="Prénom">
@@ -15,9 +15,7 @@
         </form>
 
       </div>
-      <div class="clear">
-
-      </div>
+      <div class="clear"></div>
 
       </div>
       <div class="coninformation">
