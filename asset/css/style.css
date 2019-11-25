@@ -62,7 +62,7 @@ header nav ul li {
   height: 3px;
   background-color: #fff;
   border-radius: 5px;
-  margin: 50px 162.5px;
+  margin: 4% 50%;
 }
 
 #vquoi p {
@@ -184,7 +184,6 @@ header nav ul li {
     margin-top: 100px;
     margin-left: 40%;
 }
-
 
 .speech-bubble {
     position: relative;
@@ -321,7 +320,7 @@ div .connexion input[type=submit] {
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 14px 5%;
+    padding: 14px 0px;
     border-radius: 4px;
     margin-left: 40%;
     margin-bottom: 50px;
@@ -389,7 +388,7 @@ div .connexion input[type=submit]:hover {
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 14px 20px;
+    padding: 14px 0px;
     border-radius: 4px;
     margin-left: 40%;
     margin-bottom: 50px;
@@ -402,94 +401,12 @@ div .connexion input[type=submit]:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* CONTACT */
 
 
-.conformulaire {
+
+
+.formpage {
 	float: left;
 	width: 90%;
 	margin-left: 5%;
@@ -891,7 +808,13 @@ h6 {
 
 }
 
-
+@media screen and (max-width: 900px) {
+    .ex {
+        float: left;
+        width: 68%;
+        padding: 50px 10% 40px 20%;
+    }
+}
 
 
 
