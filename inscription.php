@@ -36,7 +36,7 @@ if (!empty($_POST['submit1'])) {
         //insert into
         $success = true;
         //injection SQL
-        $sql = "INSERT INTO users VALUES(null,:email,:password)";
+        $sql = "INSERT INTO users VALUES(null,:email,null,:password,null)";
         $query = $pdo->prepare($sql);
         $query->bindValue(':email', $email, PDO::PARAM_STR);
         $query->bindValue(':password', $password, PDO::PARAM_STR);
