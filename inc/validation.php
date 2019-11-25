@@ -12,3 +12,4 @@ function emailValidation($err, $email, $key)
 
     return $err;
 }
+mmmm;
