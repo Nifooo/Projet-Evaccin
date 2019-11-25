@@ -273,13 +273,26 @@ footer .mentionfooter {
 
 
 
-#connect {
-background-color: white;
+.paragrapheconect {
+    font-size: 1.5em;
+    text-transform: uppercase;
 }
 
-#con {
-  text-align: center;
-	margin-top: 30px;
+#connect {
+    background-color: white;
+    margin-top: 150px;
+}
+
+#connect p {
+    margin: 30px;
+    text-align: center;
+}
+
+.barre0 {
+    margin: 50px 40%;
+    height: 3px;
+    width: 20%;
+    background-color: #54b59a;
 }
 
 div .connexion input[type=text]{
@@ -301,17 +314,23 @@ div .connexion input[type=password]{
     margin-top: 50px;
 }
 
-#connect p {
-    margin-top: 30px;
+div .connexion input[type=submit] {
+    width: 20%;
+    background-color: #54b59a;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-bottom: 50px;
 }
 
 div .connexion input[type=submit]:hover {
     background-color: #16a88b;
 }
 
-.seconnecter p {
-    font-size: 1.5em;
-}
+
 
 
 
@@ -326,6 +345,24 @@ div .connexion input[type=submit]:hover {
 }
 
 #inscription input[type=text]{
+    width: 30%;
+    padding: 14px 20px;
+    border: 1.5px solid #54b59a;
+    border-radius: 4px;
+    opacity: 80%;
+    margin-left: 35%;
+}
+
+#inscription input[type=password] {
+    width: 30%;
+    padding: 14px 20px;
+    border: 1.5px solid #54b59a;
+    border-radius: 4px;
+    opacity: 80%;
+    margin-left: 35%;
+}
+
+#inscription input[type=number] {
     width: 30%;
     padding: 14px 20px;
     border: 1.5px solid #54b59a;

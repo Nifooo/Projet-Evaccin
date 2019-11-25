@@ -2,13 +2,10 @@
 
     <section id="connect">
       <div class="wrap">
-          <p id="con">BIENVENUE</p>
-          <div class="clear"></div>
-          <div class="barre3"></div>
-          <div class="clear"></div>
+          <p class="paragrapheconect">Se connecter</p>
+          <div class="barre0"></div>
           <div class="connexion">
-              <p>Se connecter</p>
-            <form class="" action="accueil.html" method="post">
+            <form class="" method="post">
               <label for="email"></label>
               <input type="text" name="email"id="email" placeholder="Email" required>
               <div class="clear"></div>
