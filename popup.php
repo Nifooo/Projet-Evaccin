@@ -16,45 +16,62 @@
     <div class="clear"></div>
 </header>
 
-<section class="section1">
-    <label id="v1" for="Diphtérie">Diphtérie</label>
-      <input type="checkbox" name="Diphtérie" value="vac1">
+<div class="check1">
+  <h2>Sélectionnez vos vaccins :</h2>
+    <input type="checkbox" name="Diphtérie" value="vac1">
+      <label id="v1" for="Diphtérie">Diphtérie</label>
       <input type="date" name="date" value="">
-    <label id="v2" for="Tétanos">Tétanos</label>
-      <input type="checkbox" name="Tétanos" value="vac2">
+      <div class="clear"></div>
+    <input type="checkbox" name="Tétanos" value="vac2">
+      <label id="v2" for="Tétanos">Tétanos</label>
       <input type="date" name="date" value="">
-    <label id="v3" for="Poliomyélite">Poliomyélite</label>
-      <input type="checkbox" name="Poliomyélite" value="vac3">
+      <div class="clear"></div>
+    <input type="checkbox" name="Poliomyélite" value="vac3">
+      <label id="v3" for="Poliomyélite">Poliomyélite</label>
       <input type="date" name="date" value="">
-    <label id="v4" for="Coqueluche">Coqueluche</label>
-      <input type="checkbox" name="Coqueluche" value="vac4">
+      <div class="clear"></div>
+    <input type="checkbox" name="Coqueluche" value="vac4">
+      <label id="v4" for="Coqueluche">Coqueluche</label>
       <input type="date" name="date" value="">
-    <label id="v5" for="Hépatite B">Hépatite B</label>
-      <input type="checkbox" name="Hépatite B" value="vac5">
+      <div class="clear"></div>
+    <input type="checkbox" name="Hépatite B" value="vac5">
+      <label id="v5" for="Hépatite B">Hépatite B</label>
       <input type="date" name="date" value="">
-    <label id="v6" for="Haemophilius influenzae B">Haemophilius influenzae B</label>
-      <input type="checkbox" name="Haemophilius influenzae B" value="vac6">
+      <div class="clear"></div>
+    <input type="checkbox" name="Haemophilius influenzae B" value="vac6">
+      <label id="v6" for="Haemophilius influenzae B">Haemophilius influenzae B</label>
       <input type="date" name="date" value="">
-</section>
+      <div class="clear"></div>
+</div>
 
-<section class="section2">
-  <label id="v7" for="Oreillons">Oreillons</label>
-    <input type="checkbox" name="Oreillons" value="vac7">
+
+<div class="check2">
+  <input type="checkbox" name="Oreillons" value="vac7">
+    <label id="v7" for="Oreillons">Oreillons</label>
     <input type="date" name="date" value="">
-  <label id="v8" for="Rubéole">Rubéole</label>
-    <input type="checkbox" name="Rubéole" value="vac8">
+    <div class="clear"></div>
+  <input type="checkbox" name="Rubéole" value="vac8">
+    <label id="v8" for="Rubéole">Rubéole</label>
     <input type="date" name="date" value="">
-  <label id="v9" for="Méningocoque">Méningocoque</label>
-    <input type="checkbox" name="Méningocoque" value="vac9">
+    <div class="clear"></div>
+  <input type="checkbox" name="Méningocoque" value="vac9">
+    <label id="v9" for="Méningocoque">Méningocoque</label>
     <input type="date" name="date" value="">
-  <label id="v10" for="Pneumocoque">Pneumocoque</label>
-    <input type="checkbox" name="Pneumocoque" value="vac10">
+    <div class="clear"></div>
+  <input type="checkbox" name="Pneumocoque" value="vac10">
+    <label id="v10" for="Pneumocoque">Pneumocoque</label>
     <input type="date" name="date" value="">
-  <label id="v11" for="Rougeole">Rougeole</label>
-    <input type="checkbox" name="Rougeole" value="vac11">
+    <div class="clear"></div>
+  <input type="checkbox" name="Rougeole" value="vac11">
+    <label id="v11" for="Rougeole">Rougeole</label>
     <input type="date" name="date" value="">
+    <div class="clear"></div>
+  <label for="Autre">Autres vaccins :</label>
+    <input type="text" name="" value="" placeholder="Saisir ici">
+    <input type="date" name="date" value="">
+    <div class="clear"></div>
   <input id="submit" type="submit" name="ajouter" value="Ajouter">
-</section>
+</div>
 
 </body>
 </html>
