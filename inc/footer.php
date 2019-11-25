@@ -33,9 +33,9 @@
         <div class="mentionfooter">
             <p>E-VACCIN - Tous droits réservés ©</p>
         </div>
-
+        <div class="clear"></div>
     </div>
-    <div class="clear"></div>
+
 </footer>
 
 </body>

@@ -10,8 +10,8 @@
           <input id="prenom" type="text" name="Prénom" value="" placeholder="Prénom">
           <input id="email"type="email" name="Email" value=""placeholder="Votre Email">
           <input id="sujet"type="" name="sujet" value=""placeholder="Objet">
-          <textarea name="message" rows="8" cols="8"placeholder="Votre texte..."></textarea>
-          <input id="boutonenvoyer"type="submit" name="submit" value="Envoyer">
+          <textarea name="message" rows="8" cols="8">Votre texte...</textarea>
+          <input id="boutonenvoyer" type="submit" name="submit" value="Envoyer">
         </form>
 
       </div>
