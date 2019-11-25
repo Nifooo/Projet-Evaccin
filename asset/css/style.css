@@ -299,6 +299,10 @@ div .connexion input[type=submit]:hover {
     background-color: #16a88b;
 }
 
+.seconnecter p {
+    font-size: 1.5em;
+}
+
 
 
 
