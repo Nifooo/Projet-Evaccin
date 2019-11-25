@@ -48,8 +48,8 @@ if (!empty($_POST['submit1'])) {
 include('inc/header.php'); ?>
 
     <section id="inscription">
-        <div class="barre4"></div>
         <p>S'inscrire</p>
+        <div class="barre0"></div>
         <form class="" action="" method="post" novalidate>
             <label for="nom"></label>
             <input type="text" name="nom" id="nom" placeholder="Nom" value="<?php if (!empty($_POST['nom'])) {
