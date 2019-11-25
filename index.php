@@ -50,10 +50,12 @@
     <div class="barre3"></div>
     <h2>Qui sommes nous ?</h2>
     <div class="container">
-        <p>E-vaccin est un site créé par un collectif de médecin dans le but de faciliter la vie de millions de patients mais aussi des professionnels de santé. La plateforme e-vaccin rend plus pratique le suivi médical des patients et permet aux médecins de consulter plus facilement si le patient est à jour ou non dans ses vaccins.</p>
-        <img class="bulleperso" src="asset/images/bulle2.png" alt="bulle de discussion">
+        <p class="speech-bubble">E-vaccin est un site créé par un collectif de médecin dans le but de faciliter la vie de millions de patients mais aussi des professionnels de santé. La plateforme e-vaccin rend plus pratique le suivi médical des patients et permet aux médecins de consulter plus facilement si le patient est à jour ou non dans ses vaccins.</p>
         <img class="perso" width="100px" src="asset/images/personnage.png" alt="petit bonhomme">
     </div>
+
 </section>
+
+<div class="clear"></div>
 
 <?php include('inc/footer.php'); ?>
