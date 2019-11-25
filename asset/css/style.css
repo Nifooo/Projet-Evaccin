@@ -320,7 +320,7 @@ div .connexion input[type=submit] {
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 14px 20px;
+    padding: 14px 5%;
     border-radius: 4px;
     margin-left: 40%;
     margin-bottom: 50px;
@@ -342,6 +342,16 @@ div .connexion input[type=submit]:hover {
 
 #inscription {
     margin-top: 150px;
+}
+
+#inscription p {
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#inscription input {
+    margin: 20px 0px;
 }
 
 #inscription input[type=text]{
@@ -371,6 +381,21 @@ div .connexion input[type=submit]:hover {
     margin-left: 35%;
 }
 
+#inscription input[type=submit] {
+    width: 20%;
+    background-color: #54b59a;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+    margin-left: 40%;
+    margin-bottom: 50px;
+}
+
+#inscription input[type=submit]:hover {
+    background-color: #16a88b;
+}
 
 
 
