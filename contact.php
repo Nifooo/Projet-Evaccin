@@ -14,7 +14,6 @@
           <input id="boutonenvoyer" type="submit" name="submit" value="Envoyer">
         </form>
       </div>
-        <div class="bar"></div>
 
       <div class="clear"></div>
 
@@ -35,3 +34,4 @@
     </section>
 
 <?php include('inc/footer.php'); ?>
+
