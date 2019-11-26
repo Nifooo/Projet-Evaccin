@@ -3,7 +3,6 @@
 <section id="vquoi">
     <div class="wrap">
         <h2>L' e-vaccin c'est quoi ?</h2>
-        <div class="barre"></div>
         <p> Vous êtes perdus dans vos vaccins ou<br>vous partez à l’étranger et vous voulez<br>connaitre les vaccins recommandés pour<br>votre destination afin de garantir votre<br>santé et celle de votre famille ?
             Créez votre<br>carnet de vaccination électronique afin de<br>simplifier le suivi médical de vos vaccins. </p>
         <button type="button" name="button"><a href="connexion.php">Je crée mon carnet<br>de vaccination</a></button>
@@ -14,7 +13,7 @@
 <section id="pourquoi">
     <div class="wrap">
         <h2>Pourquoi créer mon carnet ?</h2>
-        <div class="barre2"></div>
+        <div class="barre"></div>
         <div class="ex simple">
             <h3>Simplicité</h3>
             <img src="asset/images/simple.png" alt="logo simplicité">
@@ -47,7 +46,7 @@
 </section>
 
 <section id="qui">
-    <div class="barre3"></div>
+    <div class="barre"></div>
     <h2>Qui sommes nous ?</h2>
     <div class="container">
         <p class="speech-bubble">E-vaccin est un site créé par un collectif de médecin dans le but de faciliter la vie de millions de patients mais aussi des professionnels de santé. La plateforme e-vaccin rend plus pratique le suivi médical des patients et permet aux médecins de consulter plus facilement si le patient est à jour ou non dans ses vaccins.</p>
