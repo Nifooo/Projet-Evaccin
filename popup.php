@@ -10,13 +10,16 @@
 <body>
 
 <header>
-    <div class="titre">
-        <h1>Ajoutez vos vaccins :</h1>
+    <div class="headerpopup">
+      <div class="wrap">
+        <h1 class"titrepopup">Ajoutez vos vaccins :</h1>
+      </div>
     </div>
     <div class="clear"></div>
 </header>
 
 <div class="check1">
+  <div class="wrap">
   <h2>Sélectionnez vos vaccins :</h2>
     <input type="checkbox" name="Diphtérie" value="vac1">
       <label id="v1" for="Diphtérie">Diphtérie</label>
@@ -32,6 +35,9 @@
       <div class="clear"></div>
     <input type="checkbox" name="Coqueluche" value="vac4">
       <label id="v4" for="Coqueluche">Coqueluche</label>
+
+
+
       <input type="date" name="date" value="">
       <div class="clear"></div>
     <input type="checkbox" name="Hépatite B" value="vac5">
@@ -43,9 +49,11 @@
       <input type="date" name="date" value="">
       <div class="clear"></div>
 </div>
+</div>
 
 
 <div class="check2">
+  <div class="wrap">
   <input type="checkbox" name="Oreillons" value="vac7">
     <label id="v7" for="Oreillons">Oreillons</label>
     <input type="date" name="date" value="">
@@ -72,6 +80,8 @@
     <div class="clear"></div>
   <input id="submit" type="submit" name="ajouter" value="Ajouter">
 </div>
+</div>
+
 
 </body>
 </html>
