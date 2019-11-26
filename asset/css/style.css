@@ -827,4 +827,30 @@ h6 {
 .headerpopup h1 {
   font-size: 2.5em;
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.check1 h2 {
+  font-size: 1.50em;
+  margin-top: 15px;
+}
+
+.check1 {
+  display: inline-block;
+  margin-left: 280px;
+}
+
+.check2{
+  float: right;
+  margin-top: 40px;
+  margin-right: 100px;
+}
+
+#checkdate {
+  display: inline-block;
+}
+
+.check2 label {
+  display: inline-block;
 }
