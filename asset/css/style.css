@@ -142,11 +142,13 @@ header nav ul li {
 }
 
 .barre2 {
-  width: 200px;
-  height: 3px;
-  background-color: #54b59a;
-  border-radius: 5px;
-  margin: 50px 500px;
+    width: 200px;
+    height: 3px;
+    background-color: #54b59a;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 80px;
+    margin-bottom: 60px;
 }
 
 .simple h3 {
@@ -550,6 +552,7 @@ h5{
 
 
 
+
 #section1 {
   margin-top: 155px;
 }
@@ -688,12 +691,7 @@ h6 {
 @media screen and (max-width: 1180px) {
     #vquoi {
         color: black;
-    }
-}
-
-@media screen and (max-width: 610px) {
-    #vquoi {
-        height: 870px;
+        font-size: 0.7em;
     }
 }
 
@@ -737,28 +735,17 @@ h6 {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 700px) {
+    .barre2 {
+        width: 200px;
+        height: 3px;
+        background-color: #54b59a;
+        border-radius: 5px;
+        margin-left: 30%;
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+}
 
 
 
