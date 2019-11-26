@@ -1,3 +1,50 @@
+<?php
+include('inc/pdo.php');
+include('inc/function.php');
+include('inc/validation.php');
+
+$errors = array();
+$success = false;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
 <?php include('inc/header.php'); ?>
 
     <section id="connect">
