@@ -56,14 +56,16 @@ if (!empty($_POST['submit1'])) {
 
 
     // select request pour verifier si email existe pas deja dans la base s
-    $sql = $pdo->prepare("SELECT * FROM users WHERE 'email'");
-    $sql->execute(['email']);
-    $user = $sql->fetch();
-    if ($user) {
+
+    $reqmail = $pdo->prepare("SELECT * FROM users WHERE email = '$email'");
+    $reqmail->execute(array($email));
+    $mailexist = $reqmail->fetch();
+    if ($mailexist == 0) {
 
     } else {
         $errors ['email'] = 'Votre email existe déjà !';
     }
+
 
 
 // no error
