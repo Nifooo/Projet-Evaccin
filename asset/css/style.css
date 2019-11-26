@@ -88,6 +88,7 @@ header nav ul li {
   border-width: 3px;
   margin-left: 200px;
   margin-top: 50px;
+    position: absolute;
 }
 
 
@@ -406,166 +407,136 @@ div .connexion input[type=submit]:hover {
 
 
 
-.formpage {
-	float: left;
-	width: 90%;
-	margin-left: 5%;
-	margin-top: 30px;
-	margin-bottom: 200px;
-}
-
-.coninformation {
-	margin-top: 30px;
-  margin-left: 300px;
-  margin-right: 300px;
-  margin-bottom: 100px;
-	border: 1px solid #54b59a;
-}
-
 .h1speciale {
-	text-align: center;
-	margin: 200px 0 50px 0;
-	font-size: 2.5em;
-  text-transform: uppercase;
-}
-
-h5{
-	text-align: center;
-	margin-top: 100px;
-	font-size: 1.5em;
+    text-align: center;
+    margin: 200px 0 70px 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
 }
 
 .bar {
-	width: 10%;
-	height: 3px;
-	margin: 0 auto;
-	background-color: #54b59a;
+    width: 10%;
+    height: 3px;
+    background-color: #54b59a;
+    margin: 0 45.3%;
 }
 
-.conformulaire form input [type=submit]:hover {
-    background-color: #16a88b;
+h5{
+    text-align: center;
+    margin: 70px 0px;
+    font-size: 1.5em;
 }
 
-.conformulaire input{
+.formpage {
+    width: 80%;
+    margin-left: 10%;
+    border: none;
+}
+
+.formpage input {
 	width: 45%;
-	padding: 12px 30px;
+	padding: 18px 20px;
 	border-radius: 5px;
 	background-color: #fff;
-	margin-left: 2%;
-	margin-right: 2%;
-    height: 50px;
+	margin: 2% 2%;
     border: 1.5px solid #54b59a;
     opacity: 80%;
 }
 
-.conformulaire textarea {
-    padding: 20px 30px;
-    color: gray;
-    opacity: 80%;
-}
-
-.conformulaire #prenom {
-  margin-top: 30px;
-  float: left;
-}
-
-.conformulaire #email{
-	margin-top: 60px;
-	float: left;
-	margin-bottom: 30px;
-}
-
-.conformulaire #nom {
-	margin-bottom: 30px;
-	margin-top: 30px;
-	float: right;
-}
-
-.conformulaire textarea{
+.formpage textarea{
 	background-color: white;
-  margin-left: 25px;
-	border-radius: 3px;
-	margin-top: 30px;
-  width: 80%;
-  height: 200px;
-  max-width: 96%;
-  min-width: 96%;
+    padding: 12px 20px;
+    color: gray;
+	border-radius: 5px;
     border: 1.5px solid #54b59a;
     opacity: 80%;
+    width: 94.5%;
+    max-width: 94.5%;
+    min-width: 94.5%;
+    height: 200px;
+    max-height: 400px;
+    margin-left: 2%;
 }
 
-.conformulaire #sujet {
-	float: right;
-  margin-top: 30px;
-  margin-left: 26px;
-}
-
-.conformulaire #boutonenvoyer {
-    width: 40%;
+.formpage #boutonenvoyer {
+    width: 30%;
     color: white;
-    padding: 10px 20px;
-    margin-left: 30%;
-    border-radius: 4px;
-    margin-bottom: 100px;
+    padding: 10px 0;
+    border-radius: 5px;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.4em;
-    margin-top: 60px;
-    border-color: #54B59A;
     background-color: #54B59A;
+    margin: 80px 35.4%;
 }
 
-.conformulaire #boutonenvoyer:hover {
+.formpage #boutonenvoyer:hover {
     background-color: #16a88b;
 }
 
-.coninformation .info input{
-	background-color: #54b59a;
+
+
+/* INFO */
+
+
+
+
+.forminfo .info {
 	text-align: center;
-	font-size: 1.2em;
-  display: block;
-  margin: 0 auto;
-	max-width: 50%;
-	padding: 10px 40px;
-	border: none;
-  margin-bottom: 50px;
-  margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: black;
+    margin: 80px 0;
 }
 
-.coninformation .info{
-  color: #54b59a;
-  font-weight: bolder;
-  line-height: 60px;
+.forminfo {
+    color: #54b59a;
+    margin-bottom: 50px;
 }
 
-.coninformation .imagelogo img {
-  height: 25px;
-  width: 50px;
-  border-radius: 40px;
-  border: 1.5px solid #54b59a;
-  float: left;
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-top: 16px;
+.found {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 80px;
 }
 
-.coninformation .found {
-  text-align: center;
-  font-size: 1.2em;
+.imagelogo {
+    float: left;
+    width: 50%;
 }
 
-.coninformation .marc{
-  width: 120px;
-  height: 100px;
-  display: block;
-  margin: 0 auto;
+.imagelogo img {
+    width: 170px;
+    margin-left: 38%;
 }
-.coninformation .marc:hover{
-  transform: scale(3.5);
-  transition: 0.5s;
-  margin-top: 125px;
-  margin-bottom: 125px;
+
+.email-logo p {
+    margin: 40px 38%;
 }
+
+.tel-logo p {
+    margin-left: 42%;
+    margin-top: 30px;
+}
+
+.cartelogo {
+    float: left;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.forminfo .marc{
+    width: 351px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
 
 
 
@@ -813,6 +784,18 @@ h6 {
         float: left;
         width: 68%;
         padding: 50px 10% 40px 20%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .imagelogo {
+        float: left;
+        width: 100%;
+    }
+    .cartelogo {
+        float: left;
+        width: 100%;
+        margin: 80px 0;
     }
 }
 
