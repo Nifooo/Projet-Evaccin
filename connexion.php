@@ -6,7 +6,44 @@ include('inc/validation.php');
 $errors = array();
 $success = false;
 
+session_start();
 
+if (!empty($_POST)){
+    extract($_POST);
+    if(!empty ($email)) {
+        $errors['email'] = 'Veuillez renseigner ce champ';
+    }
+    if(empty ($password)) {
+        $errors['password'] = 'Veuillez renseigner ce champ';
+    }
+
+    //  Récupération de l'utilisateur et de son pass hashé
+    $sql = $pdo->prepare('SELECT id, password FROM users WHERE email = :email');
+    $sql->execute(array(
+        'email' => $email));
+    $user = $sql->fetch();
+
+// Comparaison du pass envoyé via le formulaire avec la base
+    $isPasswordCorrect = password_verify($_POST['password'], $user['password']);
+
+    if (!$user)
+    {
+        echo 'Mauvais identifiant ou mot de passe !';
+    }
+    else
+    {
+        if ($isPasswordCorrect) {
+            session_start();
+            $_SESSION['id'] = $user['id'];
+            $_SESSION['email'] = $email;
+            echo 'Vous êtes connecté !';
+        }
+        else {
+            echo 'Mauvais identifiant ou mot de passe !';
+        }
+    }
+    
+}
 
 
 
