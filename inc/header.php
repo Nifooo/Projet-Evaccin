@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>e-vaccin</title>
+    <link rel="stylesheet" href="asset/css/flexslider.css">
     <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
