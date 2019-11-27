@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -15,8 +16,8 @@
             <a href="index.php"><img src="asset/images/logof.png" alt="logo du site"></a>
             <nav>
                 <ul>
-                    <li><a href="connexion.php">Se connecter</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="connexion.php">Se connecter</a></li>';
+                        <li><a href="contact.php">Contact</a></li>
                     <li><a href="index.php">Accueil</a></li>
                 </ul>
             </nav>
