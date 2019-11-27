@@ -15,11 +15,8 @@
         <div class="footer legalfooter">
             <nav>
                 <ul>
-                    <li><a href="#">Aide et FAQ</a></li>
                     <li><a href="mentionLegale.php">Mentions légales</a></li>
-                    <li><a href="#">Politique de Protection des Données Personnelles</a></li>
                     <li><a href="popup.php">popup</a></li>
-                    <li><a href="mes-vaccins.php">mes vaccins</a></li>
                 </ul>
             </nav>
             <div class="reseaufooter">
