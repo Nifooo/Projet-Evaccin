@@ -17,6 +17,7 @@ if (!empty($_POST['submit1'])) {
     $ville = clean($_POST['ville']);
 
 
+
     //Condition Validation
 
     // Validation nom
@@ -88,6 +89,10 @@ if (!empty($_POST['submit1'])) {
         // redirection vers la connexion
     }
 }
+
+
+
+
 
 
 include('inc/header.php'); ?>
