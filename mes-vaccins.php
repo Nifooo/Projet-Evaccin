@@ -1,4 +1,41 @@
-<?php include('inc/header2.php'); ?>
+<?php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+include('inc/header2.php'); ?>
 
     <section id="section1">
       <div class="wrap">
