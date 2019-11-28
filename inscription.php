@@ -106,7 +106,7 @@ include('inc/header.php'); ?>
             <input type="text" name="nom" id="nom" placeholder="Nom*" value="<?php if (!empty($_POST['nom'])) {
                 echo $_POST['nom'];
             } ?>">
-            <span class="error"><?php if (!empty($errors['nom'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['nom'])) {
                     echo $errors['nom'];
                 } ?></span>
             <label for="prenom"></label>
@@ -114,14 +114,14 @@ include('inc/header.php'); ?>
                    value="<?php if (!empty($_POST['prenom'])) {
                        echo $_POST['prenom'];
                    } ?>">
-            <span class="error"><?php if (!empty($errors['prenom'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['prenom'])) {
                     echo $errors['prenom'];
                 } ?></span>
             <label for="email"></label>
             <input type="text" name="email" id="email" placeholder="Email*" value="<?php if (!empty($_POST['email'])) {
                 echo $_POST['email'];
             } ?>">
-            <span class="error"><?php if (!empty($errors['email'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['email'])) {
                     echo $errors['email'];
                 } ?></span>
             <label for="confirmemail"></label>
@@ -129,7 +129,7 @@ include('inc/header.php'); ?>
                    value="<?php if (!empty($_POST['confirmemail'])) {
                        echo $_POST['confirmemail'];
                    } ?>">
-            <span class="error"><?php if (!empty($errors['confirmemail'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['confirmemail'])) {
                     echo $errors['confirmemail'];
                 } ?></span>
             <label for="password"></label>
@@ -137,7 +137,7 @@ include('inc/header.php'); ?>
                    value="<?php if (!empty($_POST['password'])) {
                        echo $_POST['password'];
                    } ?>">
-            <span class="error"><?php if (!empty($errors['password'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['password'])) {
                     echo $errors['password'];
                 } ?></span>
             <label for="confirmpassword"></label>
@@ -145,21 +145,21 @@ include('inc/header.php'); ?>
                    placeholder="Confirmation de mot de passe*" value="<?php if (!empty($_POST['confirmpassword'])) {
                 echo $_POST['confirmpassword'];
             } ?>">
-            <span class="error"><?php if (!empty($errors['confirmpassword'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['confirmpassword'])) {
                     echo $errors['confirmpassword'];
                 } ?></span>
             <label for="cp"></label>
             <input type="number" name="cp" id="cp" placeholder="Code postal*" value="<?php if (!empty($_POST['cp'])) {
                 echo $_POST['cp'];
             } ?>">
-            <span class="error"><?php if (!empty($errors['cp'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['cp'])) {
                     echo $errors['cp'];
                 } ?></span>
             <label for="ville"></label>
             <input type="text" name="ville" id="ville" placeholder="Ville*" value="<?php if (!empty($_POST['ville'])) {
                 echo $_POST['ville'];
             } ?>">
-            <span class="error"><?php if (!empty($errors['ville'])) {
+            <span class="error" style="color: red"><?php if (!empty($errors['ville'])) {
                     echo $errors['ville'];
                 } ?></span>
             <input type="submit" name="submit1" value="S'inscrire">

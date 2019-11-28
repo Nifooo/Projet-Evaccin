@@ -92,7 +92,7 @@ if (!empty($_POST)){
               <input type="text" name="email"id="email" placeholder="Email" value="<?php if (!empty($_POST['email'])) {
                   echo $_POST['email'];
               } ?>">
-                <span class="error"><?php if (!empty($errors['email'])) {
+                <span class="error" style="color: red"><?php if (!empty($errors['email'])) {
                         echo $errors['email'];
                     } ?></span>
               <div class="clear"></div>
@@ -100,7 +100,7 @@ if (!empty($_POST)){
               <input type="password" name="password" id="password" placeholder="Mot de passe" value="<?php if (!empty($_POST['password'])) {
                   echo $_POST['password'];
               } ?>">
-                <span class="error"><?php if (!empty($errors['password'])) {
+                <span class="error" style="color: red"><?php if (!empty($errors['password'])) {
                         echo $errors['password'];
                     } ?></span>
                 <p>Pas de compte ?<a href="inscription.php"> Inscrivez-vous</a></p>
