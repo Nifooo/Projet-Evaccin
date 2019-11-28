@@ -10,15 +10,13 @@ $success = false;
 if (!empty($_POST)){
     $email = clean($_POST['email']);
     $password = clean($_POST['password']);
+
     if(!empty ($email)) {
         $errors['email'] = 'Veuillez renseigner ce champ';
-    } else {
-
     }
+
     if(empty ($password)) {
         $errors['password'] = 'Veuillez renseigner ce champ';
-    } else {
-
     }
 
     //  Récupération de l'utilisateur et de son pass hashé

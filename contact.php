@@ -1,6 +1,11 @@
 <?php
+
+include('inc/pdo.php');
+include('inc/function.php');
+include('inc/validation.php');
+
+
 include('inc/header.php');
-include ('inc/traitement-contact.php');
 ?>
 
 
@@ -9,10 +14,16 @@ include ('inc/traitement-contact.php');
 <h5>Envoyez votre message ici</h5>
 <section id="pagecontact">
     <div class="formpage">
-        <form class="" action="traitement-contact.php" method="post">
-            <input id="nom" type="text" name="Nom" value="" placeholder="Votre Nom">
-            <input id="prenom" type="text" name="Prénom" value="" placeholder="Prénom">
-            <input id="email" type="email" name="Email" value="" placeholder="Votre Email">
+        <form class=""  method="post">
+            <input id="nom" type="text" name="nom" placeholder="Votre Nom" value=""<?php if (!empty($_POST['nom'])) {
+                echo $_POST['email'];
+            } ?>"">
+            <input id="prenom" type="text" name="prenom" placeholder="Prénom" value=""<?php if (!empty($_POST['prenom'])) {
+                echo $_POST['email'];
+            } ?>"">
+            <input id="email" type="email" name="email" placeholder="Votre Email" value="<?php if (!empty($_POST['email'])) {
+                echo $_POST['email'];
+            } ?>">
             <input id="sujet" type="" name="sujet" value="" placeholder="Objet">
             <textarea name="message" rows="8" cols="8" placeholder="Votre message ..."></textarea>
             <input id="boutonenvoyer" type="submit" name="submit" value="Envoyer">
