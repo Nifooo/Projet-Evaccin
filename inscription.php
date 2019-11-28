@@ -53,7 +53,7 @@ if (!empty($_POST['submit1'])) {
     // Validation cp
     $errors = cpValid($errors, $cp,'cp');
     // Validation ville
-    $errors = textValid($errors,$prenom,'ville',2,100);
+    $errors = textValid($errors,$ville,'ville',2,100);
 
 
     // select request pour verifier si email existe pas deja dans la base s
@@ -87,6 +87,7 @@ if (!empty($_POST['submit1'])) {
         $query->execute();
 
         // redirection vers la connexion
+        header('Location: connexion.php');
     }
 }
 

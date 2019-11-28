@@ -6,7 +6,6 @@ include('inc/validation.php');
 $errors = array();
 $success = false;
 
-session_start();
 
 if (!empty($_POST)){
     extract($_POST);

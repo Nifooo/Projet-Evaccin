@@ -1,31 +1,25 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <title>e-vaccin</title>
-    <link rel="stylesheet" href="asset/css/style.css">
-</head>
+<?php if(!empty($_SESSION['id'])){ ?>
 
-<body>
+    <?php {echo htmlentities(trim($_SESSION['email']));}?>
+    <li><a href="deconnexion.php"> Deconnexion </a></li>
+    <li><a href="compte.php"> Profile </a></li>
+    <li><a href="contact.php"> Contact </a></li>
+    <li><a href="mes-vaccins.php"> Mes vaccins </a></li>
+    <li><a href="enfant.php"> Enfant </a></li>
 
-<header>
-    <div class="menufixed">
-        <div class="wrap">
-            <a href="index.php"><img src="asset/images/logof.png" alt="logo du site"></a>
-            <nav>
-                <ul>
-                    <li><a href="deconnexion.php">Se déconnecter</a></li>
-                    <li><a href="compte.php">Mon compte</a></li>
-                    <li><a href="enfant.php">Enfant</a></li>
-                    <li><a href="mes-vaccins.php">Mes vaccins</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="clear"></div>
-</header>
+
+<?php }
+
+
+//Si le membre n'est pas connecté on affiche le menu-deconnecter
+if(empty($_SESSION['id'])) { ?>
+
+    <li><a href="connexion.php">Connexion</a></li>
+    <li><a href="contact.php"> Contact</a></li>
+    <li><a href="index.php" >Accueil</li>
+
+
+<?php } ?>
 
 
 

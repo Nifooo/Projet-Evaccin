@@ -1,4 +1,11 @@
-<?php include('inc/header.php'); ?>
+<?php
+
+include('inc/header.php');
+
+
+if (isset($_SESSION['id']) AND isset($_SESSION['email'])) {
+    echo 'Bonjour ' . $_SESSION['email'];
+}?>
 
 <section id="vquoi">
     <div class="wrap">
@@ -44,6 +51,10 @@
     </div>
     <div class="clear"></div>
 </section>
+
+<?php if (isset($_SESSION['id']) AND isset($_SESSION['email'])) {
+    echo 'Bonjour ' . $_SESSION['email'];
+} ?>
 
 <section id="qui">
     <div class="barre2"></div>
