@@ -1,4 +1,5 @@
-<?php session_start() ?>
+<?php session_start() ;
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -18,7 +19,7 @@
             <nav>
                 <ul>
                     <?php
-                    if(!empty($_SESSION['id'])){ ?>
+                    if(!empty($_SESSION['id'])){?>
 
 
                         <li><a href="deconnexion.php"> Deconnexion </a></li>
