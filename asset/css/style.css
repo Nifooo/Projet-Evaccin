@@ -807,38 +807,31 @@ h6 {
 
 /* POP UP MES VACCINS */
 
-.headerpopup {
-  background-color: #54b59a;
-}
 
-.headerpopup h1 {
-  font-size: 2.5em;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 
 .poptitle {
   font-size: 1.80em;
-  margin-top: 35px;
+  margin-top: 15px;
   text-align: center;
+  padding-top: 125px;
 }
 
 .check1 {
   float: left;
-  margin-top: 30px;
-  margin-left: 26%;
+  margin-top: 8px;
+  margin-left: 31%;
 }
 
 .check2{
   float: right;
-  margin-top: 30px;
-  margin-right: 26%;
+  margin-top: 8px;
+  margin-right: 20%;
 }
 
 .pop {
   display: block;
   padding-top: 25px;
+  margin-bottom: 5px;
 }
 
 .submitt {
@@ -847,10 +840,13 @@ h6 {
     background-color: #54b59a;
     border-radius: 5px;
     margin-left: 43%;
-    margin-top: 60px;
     color: white;
     font-size: 1.2em;
     text-transform: uppercase;
+}
+
+.orga {
+  padding: 25px;
 }
 
 #vac {
@@ -858,5 +854,14 @@ h6 {
 }
 
 #checkdate {
-  margin-top: 9px
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 3px;
+  border-color: #000;
+  border-width: 1px;
+  text-align: center;
+
+}
+
+#checkboxx2 {
+  margin-left: 10px;
 }

@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr" dir="ltr">
-<head>
-    <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <title>e-vaccin</title>
-    <link rel="stylesheet" href="asset/css/style.css">
-</head>
+<?php include('inc/header.php') ?>
 
-<body>
-
-<header>
-    <div class="headerpopup">
-      <div class="wrap">
-        <h1 class"titrepopup">Ajoutez vos vaccins :</h1>
-      </div>
-    </div>
-    <div class="clear"></div>
-</header>
 
 <h2 class="poptitle">Sélectionnez vos vaccins :</h2>
 <div class="check check1">
@@ -109,7 +92,7 @@
 
           <div class="pop">
   <label for="Autre">Autres vaccins :</label>
-    <input id="checkboxx" type="text" name="" value="" placeholder="Saisir ici">
+    <input id="checkboxx2" type="text" name="" value="" placeholder="Saisir ici">
   </div>
     <input id="checkdate" type="date" name="date" value="">
     <div class="clear"></div>
