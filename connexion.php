@@ -8,7 +8,8 @@ $success = false;
 
 
 if (!empty($_POST)){
-    extract($_POST);
+    $email = clean($_POST['email']);
+    $password = clean($_POST['password']);
     if(!empty ($email)) {
         $errors['email'] = 'Veuillez renseigner ce champ';
     } else {
