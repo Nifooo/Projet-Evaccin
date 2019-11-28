@@ -34,6 +34,8 @@ if (!empty($_POST['submit1'])) {
     } else{
         if(empty ($confirmemail)) {
             $errors['confirmemail'] = 'Veuillez renseigner ce champ';
+        } else {
+
         }
     }
 
@@ -46,6 +48,8 @@ if (!empty($_POST['submit1'])) {
     } else{
         if(empty ($confirmpassword)) {
             $errors['confirmpassword'] = 'Veuillez renseigner ce champ';
+        } else {
+
         }
     }
 

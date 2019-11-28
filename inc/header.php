@@ -29,10 +29,12 @@
                         <li><a href="enfant.php"> Enfant </a></li>
 
 
-                    <?php }
+                    <?php } else {
+
+                    }
 
 
-                    //Si le membre n'est pas connecté on affiche le menu-deconnecter
+
                     if(empty($_SESSION['id'])) { ?>
 
                         <li><a href="connexion.php">Connexion</a></li>
@@ -40,7 +42,9 @@
                         <li><a href="index.php" >Accueil</a></li>
 
 
-                    <?php } ?>
+                    <?php } else {
+
+                    }?>
                 </ul>
             </nav>
         </div>

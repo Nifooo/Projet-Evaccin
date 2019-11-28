@@ -11,9 +11,13 @@ if (!empty($_POST)){
     extract($_POST);
     if(!empty ($email)) {
         $errors['email'] = 'Veuillez renseigner ce champ';
+    } else {
+
     }
     if(empty ($password)) {
         $errors['password'] = 'Veuillez renseigner ce champ';
+    } else {
+
     }
 
     //  Récupération de l'utilisateur et de son pass hashé

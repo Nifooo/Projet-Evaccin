@@ -1,4 +1,7 @@
-<?php include('inc/header.php'); ?>
+<?php
+include('inc/header.php');
+include ('inc/traitement-contact.php');
+?>
 
 
 <h1 class="h1speciale">Nous contacter</h1>
@@ -6,7 +9,7 @@
 <h5>Envoyez votre message ici</h5>
 <section id="pagecontact">
     <div class="formpage">
-        <form class="" action="accueil.html" method="post">
+        <form class="" action="traitement-contact.php" method="post">
             <input id="nom" type="text" name="Nom" value="" placeholder="Votre Nom">
             <input id="prenom" type="text" name="Prénom" value="" placeholder="Prénom">
             <input id="email" type="email" name="Email" value="" placeholder="Votre Email">
