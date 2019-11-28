@@ -71,7 +71,7 @@
 
 <div class="check2">
   <div class="wrap">
-
+<form class="" action="index.html" method="post">
           <div class="pop">
   <input id="checkboxx" type="checkbox" name="Oreillons" value="vac7">
     <label id="vac" for="Oreillons">Oreillons</label>
@@ -121,6 +121,7 @@
 <input type="submit" name="ajouter" value="Ajouter">
 <div class="clear"></div>
 </div>
+</form>
 
 
 </body>

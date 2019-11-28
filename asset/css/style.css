@@ -819,20 +819,22 @@ h6 {
 }
 
 .poptitle {
-  font-size: 1.50em;
-  margin-top: 15px;
+  font-size: 1.80em;
+  margin-top: 35px;
+  text-align: center;
+  margin-right: 15%;
 }
 
 .check1 {
   float: left;
-  margin-top: 50px;
-  margin-left: 300px;
+  margin-top: 30px;
+  margin-left: 26%;
 }
 
 .check2{
   float: right;
-  margin-top: 50px;
-  margin-right: 300px;
+  margin-top: 30px;
+  margin-right: 26%;
 }
 
 .pop {
@@ -843,6 +845,8 @@ h6 {
 .submit {
   margin-top: 500px;
   margin-left: 47.8%;
+  margin-bottom: 50px;
+
 }
 
 #vac {
