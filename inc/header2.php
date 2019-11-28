@@ -16,7 +16,7 @@ if(empty($_SESSION['id'])) { ?>
 
     <li><a href="connexion.php">Connexion</a></li>
     <li><a href="contact.php"> Contact</a></li>
-    <li><a href="index.php" >Accueil</li>
+    <li><a href="index.php" >Aaccueil</li>
 
 
 <?php } ?>
