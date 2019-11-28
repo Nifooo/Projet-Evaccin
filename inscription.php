@@ -162,7 +162,7 @@ include('inc/header.php'); ?>
             <span class="error" style="color: red"><?php if (!empty($errors['ville'])) {
                     echo $errors['ville'];
                 } ?></span>
-            <input type="submit" name="submit1" value="S'inscrire">
+            <input class="envoi" type="submit" name="submit1" value="S'inscrire">
         </form>
     </section>
     <div class="clear"></div>

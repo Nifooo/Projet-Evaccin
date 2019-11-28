@@ -325,7 +325,7 @@ div .connexion input[type=password]{
     margin-top: 50px;
 }
 
-div .connexion input[type=submit] {
+.connexion input[type=submit] {
     width: 20%;
     background-color: #54b59a;
     color: white;
@@ -337,7 +337,7 @@ div .connexion input[type=submit] {
     margin-bottom: 50px;
 }
 
-div .connexion input[type=submit]:hover {
+.connexion input[type=submit]:hover {
     background-color: #16a88b;
 }
 
@@ -819,22 +819,44 @@ h6 {
 }
 
 .poptitle {
-  font-size: 1.50em;
-  margin-top: 15px;
+  font-size: 1.80em;
+  margin-top: 35px;
+  text-align: center;
 }
 
 .check1 {
-  width: 50%;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 26%;
 }
 
 .check2{
   float: right;
-  width: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 26%;
 }
 
 .pop {
   display: block;
+  padding-top: 25px;
+}
+
+.submitt {
+    width: 200px;
+    height: 40px;
+    background-color: #54b59a;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 60px;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#vac {
+  margin-left: 8px;
+}
+
+#checkdate {
+  margin-top: 9px
 }
