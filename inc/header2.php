@@ -17,7 +17,6 @@
                 <ul>
                     <li><a href="deconnexion.php">Se déconnecter</a></li>
                     <li><a href="compte.php">Mon compte</a></li>
-                    <li><a href="enfant.php">Enfant</a></li>
                     <li><a href="mes-vaccins.php">Mes vaccins</a></li>
                     <li><a href="contact.php">Contact</a></li>
                 </ul>

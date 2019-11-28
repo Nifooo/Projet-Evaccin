@@ -1,4 +1,44 @@
-<?php include('inc/header.php') ?>
+<?php
+include ('inc/function.php');
+include ('inc/pdo.php');
+
+$errors = array();
+$success = false;
+
+
+if (!empty($_POST['checkbox'])) {
+
+
+    // VALIDATION AVEC LES FONCTIONS //
+
+
+    if (count($errors) == 0) {
+        $success = true;
+        $sql = "INSERT INTO reve VALUES(null ,:nomvaccin)";
+        $query = $pdo->prepare($sql);
+        $query->bindValue(':nomvaccin', $nomDuVaccin, PDO::PARAM_STR);
+        $query->execute();
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+include('inc/header.php') ?>
 
 
 <h2 class="poptitle">Sélectionnez vos vaccins :</h2>

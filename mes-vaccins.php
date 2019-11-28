@@ -1,97 +1,60 @@
 <?php
+include ('inc/pdo.php');
+include ('inc/function.php');
+$errors = array();
+$success = false;
+
+$sql   = "SELECT * FROM listevaccin";
+$sql2   = "SELECT * FROM liste ORDER BY created_at";
+$query = $pdo -> prepare($sql);
+$query -> execute();
+$listevs = $query -> fetchAll();
+
+
+if (!empty($_POST['envoi'])) {
+
+
+    $listev   = clean($_POST['nom']);
+    $date     = $_POST['created'];
 
 
 
 
+    if (count($errors) == 0) {
+        $success = true;
+        $sql2 = "INSERT INTO liste VALUES(null ,:nom ,:datecrea)";
+        $query = $pdo->prepare($sql2);
+        $query->bindValue(':nom', $listev, PDO::PARAM_STR);
+        $query->bindValue(':datecrea', $date);
+        $query->execute();
+    }
 
 
+}
+
+include('inc/header.php'); ?>
+
+<div class="press">
+<h2>Mes vaccins</h2>
+<div class="barre9"></div>
+</div>
+
+<?php foreach ($listevs as $listev) { ?>
+    <?php echo $listev['name'] . '<br>'; ?>
+
+<?php }?>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-include('inc/header2.php'); ?>
-
-    <section id="section1">
-      <div class="wrap">
-        <h6>Les vaccins obligatoires :</h6>
-        <ul class="list list1">
-          <li>La diphtérie</li>
-          <li>Le tétanos</li>
-          <li>La poliomyélite</li>
-          <li>La coqueluche</li>
-          <li>L'hépatite B</li>
-          <li class="grandmot">L'haemophilius influenzae B</li>
-        </ul>
-        <ul class="list list2">
-          <li>Les oreillons</li>
-          <li>La rubéole</li>
-          <li>Le méningocoque C</li>
-          <li>Le pneumocoque</li>
-          <li>La rougeole</li>
-        </ul>
-        <img class="img1" src="asset/images/vaccination.jpg" alt="Vaccination">
-      </div>
-      <div class="clear"></div>
-    </section>
-
-    <section id="section2">
-      <div class="wrap">
-        <h6>Mes vaccins :</h6>
-        <table>
-          <tr>
-            <th>Nom du vaccin</th>
-            <th>Date de l'intervention</th>
-            <th>Commentaire</th>
-          </tr>
-          <tr>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-          </tr>
-          <tr>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-          </tr>
-          <tr>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-            <td>qsdfghjklm</td>
-          </tr>
-        </table>
-        <img src="asset/images/color-red.png" alt="couleur rouge">
-        <p>Vaccins obligatoires</p>
-        <img src="asset/images/color-blue.png" alt="couleur bleue">
-        <p>Vaccins facultatifs</p>
-        <a href="popup.php"><span>+</span> ajouter vaccin</a>
-      </div>
-      <div class="clear"></div>
-    </section>
+<form action="" id="mvac" method="post" novalidate>
+    <label>Selectionnez vos vaccins :</label>
+    <SELECT name="nom" size="1">
+        <option>-- Selectionnez votre vaccin --</option>
+        <?php foreach ($listevs as $listev) { ?>
+        <option value="<?php echo $listev['name']; ?>"><?php echo $listev['name']; ?></option><?php } ?>
+    </SELECT>
+        <input class="ladate" type="date" name="created">
+    <input class="envoi" type="submit" name="envoi" value="Enregistrer">
+    </form>
 
 <?php include('inc/footer.php'); ?>
+
