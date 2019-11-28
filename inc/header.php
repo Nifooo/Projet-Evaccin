@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
@@ -11,36 +12,14 @@
 <body>
 
 <header>
-    <?php
-    session_start();
-   ?>
     <div class="menufixed">
         <div class="wrap">
             <a href="index.php"><img src="asset/images/logof.png" alt="logo du site"></a>
             <nav>
                 <ul>
-                    <?php if(isset($_SESSION['id'])){ ?>
-
-
-                        <li><a href="deconnexion.php"> Deconnexion </a></li>
-                        <li><a href="compte.php"> Profile </a></li>
-                        <li><a href="contact.php"> Contact </a></li>
-                        <li><a href="mes-vaccins.php"> Mes vaccins </a></li>
-                        <li><a href="enfant.php"> Enfant </a></li>
-
-
-                    <?php }
-
-
-                    //Si le membre n'est pas connecté on affiche le menu-deconnecter
-                    if(empty($_SESSION['id'])) { ?>
-
-                        <li><a href="connexion.php">Connexion</a></li>
-                        <li><a href="contact.php"> Contact</a></li>
-                        <li><a href="index.php" >Accueil</a></li>
-
-
-                    <?php } ?>
+                    <li><a href="connexion.php">Se connecter</a></li>';
+                        <li><a href="contact.php">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
                 </ul>
             </nav>
         </div>
