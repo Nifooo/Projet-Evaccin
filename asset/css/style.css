@@ -824,17 +824,31 @@ h6 {
 }
 
 .check1 {
-  width: 50%;
   float: left;
   margin-top: 50px;
+  margin-left: 300px;
 }
 
 .check2{
   float: right;
-  width: 50%;
   margin-top: 50px;
+  margin-right: 300px;
 }
 
 .pop {
   display: block;
+  padding-top: 25px;
+}
+
+.submit {
+  margin-top: 500px;
+  margin-left: 47.8%;
+}
+
+#vac {
+  margin-left: 8px;
+}
+
+#checkdate {
+  margin-top: 9px
 }
