@@ -116,13 +116,11 @@
     </div>
 </div>
 
-
-<div class="submit">
-<input type="submit" name="ajouter" value="Ajouter">
 <div class="clear"></div>
-</div>
-</form>
 
+<div class="orga">
+<input class="submitt" type="submit" name="ajouter" value="Ajouter">
+</div>
 
 </body>
 </html>

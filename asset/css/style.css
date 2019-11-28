@@ -325,7 +325,7 @@ div .connexion input[type=password]{
     margin-top: 50px;
 }
 
-div .connexion input[type=submit] {
+.connexion input[type=submit] {
     width: 20%;
     background-color: #54b59a;
     color: white;
@@ -337,7 +337,7 @@ div .connexion input[type=submit] {
     margin-bottom: 50px;
 }
 
-div .connexion input[type=submit]:hover {
+.connexion input[type=submit]:hover {
     background-color: #16a88b;
 }
 
@@ -822,7 +822,6 @@ h6 {
   font-size: 1.80em;
   margin-top: 35px;
   text-align: center;
-  margin-right: 15%;
 }
 
 .check1 {
@@ -842,11 +841,16 @@ h6 {
   padding-top: 25px;
 }
 
-.submit {
-  margin-top: 500px;
-  margin-left: 47.8%;
-  margin-bottom: 50px;
-
+.submitt {
+    width: 200px;
+    height: 40px;
+    background-color: #54b59a;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 60px;
+    color: white;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
 #vac {
