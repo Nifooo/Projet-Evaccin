@@ -819,22 +819,40 @@ h6 {
 }
 
 .poptitle {
-  font-size: 1.50em;
-  margin-top: 15px;
+  font-size: 1.80em;
+  margin-top: 35px;
+  text-align: center;
+  margin-right: 15%;
 }
 
 .check1 {
-  width: 50%;
   float: left;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 26%;
 }
 
 .check2{
   float: right;
-  width: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-right: 26%;
 }
 
 .pop {
   display: block;
+  padding-top: 25px;
+}
+
+.submit {
+  margin-top: 500px;
+  margin-left: 47.8%;
+  margin-bottom: 50px;
+
+}
+
+#vac {
+  margin-left: 8px;
+}
+
+#checkdate {
+  margin-top: 9px
 }
