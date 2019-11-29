@@ -45,43 +45,6 @@ if (!empty($_POST)){
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
 <?php include('inc/header.php'); ?>
 

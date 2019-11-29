@@ -20,18 +20,18 @@ if (!empty($_POST['submit1'])) {
     //Condition Validation
 
     // Validation nom
-    $errors = textValid($errors,$nom,'nom',2,100);
+    $errors = textValid($errors, $nom, 'nom', 2, 100);
 
     // Validation prenom
-    $errors = textValid($errors,$prenom,'prenom',2,100);
+    $errors = textValid($errors, $prenom, 'prenom', 2, 100);
 
     // Validation email
     $errors = emailValidation($errors, $email, 'email');
     // Confirmemail
     if ($email != $confirmemail) {
         $errors['confirmemail'] = 'La confirmation du mail doit être identique au mail';
-    } else{
-        if(empty ($confirmemail)) {
+    } else {
+        if (empty ($confirmemail)) {
             $errors['confirmemail'] = 'Veuillez renseigner ce champ';
         } else {
 
@@ -44,8 +44,8 @@ if (!empty($_POST['submit1'])) {
     // Confirmpassword
     if ($password != $confirmpassword) {
         $errors['confirmpassword'] = 'La confirmation du mot de passe doit être identique au mot de passe';
-    } else{
-        if(empty ($confirmpassword)) {
+    } else {
+        if (empty ($confirmpassword)) {
             $errors['confirmpassword'] = 'Veuillez renseigner ce champ';
         } else {
 
@@ -54,9 +54,9 @@ if (!empty($_POST['submit1'])) {
 
 
     // Validation cp
-    $errors = cpValid($errors, $cp,'cp');
+    $errors = cpValid($errors, $cp, 'cp');
     // Validation ville
-    $errors = textValid($errors,$ville,'ville',2,100);
+    $errors = textValid($errors, $ville, 'ville', 2, 100);
 
 
     // select request pour verifier si email existe pas deja dans la base s
@@ -69,7 +69,6 @@ if (!empty($_POST['submit1'])) {
     } else {
         $errors ['email'] = 'Votre email existe déjà !';
     }
-
 
 
 // no error
@@ -93,10 +92,6 @@ if (!empty($_POST['submit1'])) {
         header('Location: connexion.php');
     }
 }
-
-
-
-
 
 
 include('inc/header.php'); ?>

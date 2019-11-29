@@ -16,8 +16,7 @@
             <nav>
                 <ul>
                     <li><a href="mentionLegale.php">Mentions légales</a></li>
-                    <li><a href="popup.php">popup</a></li>
-                    <li><a href="mes-vaccins.php">Mes vaccins</li>
+
                 </ul>
             </nav>
             <div class="reseaufooter">
