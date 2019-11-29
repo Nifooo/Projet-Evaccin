@@ -1,11 +1,6 @@
 <?php
 
-include('inc/header.php');
-
-
-if (isset($_SESSION['id']) AND isset($_SESSION['email'])) {
-    echo 'Bonjour ' . $_SESSION['email'];
-}?>
+include('inc/header.php'); ?>
 
 <section id="vquoi">
     <div class="wrap">
