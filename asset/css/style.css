@@ -180,16 +180,6 @@ header nav ul li {
   padding-top: 60px;
 }
 
-
-.barre3 {
-  width: 200px;
-  height: 3px;
-  background-color: #54b59a;
-  border-radius: 5px;
-  margin-left: 612.5px;
-  margin-top: 50px;
-}
-
 .perso {
     float: left;
     margin-top: 100px;
@@ -266,7 +256,7 @@ footer .reseaufooter img {
 footer .barrefooter {
   height: 2px;
   background-color: white;
-  margin: 40px 0px 20px 0;
+  margin: 40px 0 20px 0;
 }
 
 footer .mentionfooter {
@@ -309,7 +299,7 @@ footer .mentionfooter {
 div .connexion input[type=text]{
   width: 30%;
   padding: 14px 20px;
-  border: 1.5px solid #54b59a;
+  border: 1.5em solid #54b59a;
   border-radius: 4px;
   opacity: 80%;
     margin-left: 35%;
@@ -318,7 +308,7 @@ div .connexion input[type=text]{
 div .connexion input[type=password]{
   width: 30%;
   padding: 14px 20px;
-  border: 1.5px solid #54b59a;
+  border: 1.5em solid #54b59a;
   border-radius: 4px;
   opacity: 80%;
     margin-left: 35%;
@@ -331,7 +321,7 @@ div .connexion input[type=password]{
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 14px 0px;
+    padding: 14px 0;
     border-radius: 4px;
     margin-left: 40%;
     margin-bottom: 50px;
@@ -363,13 +353,13 @@ div .connexion input[type=password]{
 }
 
 #inscription input {
-    margin: 20px 0px;
+    margin: 20px 0;
 }
 
 #inscription input[type=text]{
     width: 30%;
     padding: 14px 20px;
-    border: 1.5px solid #54b59a;
+    border: 1.5em solid #54b59a;
     border-radius: 4px;
     opacity: 80%;
     margin-left: 35%;
@@ -378,7 +368,7 @@ div .connexion input[type=password]{
 #inscription input[type=password] {
     width: 30%;
     padding: 14px 20px;
-    border: 1.5px solid #54b59a;
+    border: 1.5em solid #54b59a;
     border-radius: 4px;
     opacity: 80%;
     margin-left: 35%;
@@ -387,7 +377,7 @@ div .connexion input[type=password]{
 #inscription input[type=number] {
     width: 30%;
     padding: 14px 20px;
-    border: 1.5px solid #54b59a;
+    border: 1.5em solid #54b59a;
     border-radius: 4px;
     opacity: 80%;
     margin-left: 35%;
@@ -399,7 +389,7 @@ div .connexion input[type=password]{
     color: white;
     text-transform: uppercase;
     border: none;
-    padding: 14px 0px;
+    padding: 14px 0;
     border-radius: 4px;
     margin-left: 40%;
     margin-bottom: 50px;
@@ -433,7 +423,7 @@ div .connexion input[type=password]{
 
 h5{
     text-align: center;
-    margin: 70px 0px;
+    margin: 70px 0;
     font-size: 1.5em;
 }
 
@@ -449,7 +439,7 @@ h5{
 	border-radius: 5px;
 	background-color: #fff;
 	margin: 2% 2%;
-    border: 1.5px solid #54b59a;
+    border: 1.5em solid #54b59a;
     opacity: 80%;
 }
 
@@ -458,7 +448,7 @@ h5{
     padding: 12px 20px;
     color: gray;
 	border-radius: 5px;
-    border: 1.5px solid #54b59a;
+    border: 1.5em solid #54b59a;
     opacity: 80%;
     width: 94.5%;
     max-width: 94.5%;

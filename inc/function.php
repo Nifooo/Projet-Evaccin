@@ -13,3 +13,7 @@ function debug($tableau) {
     echo '<pre>'; print_r($tableau); echo '</pre>';
 }
 
+///////////////////////////////////////
+// FONCTION DE VALIDATION DE L'EMAIL
+///////////////////////////////////////
+

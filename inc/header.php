@@ -23,17 +23,14 @@
 
 
                         <li><a href="deconnexion.php"> Deconnexion </a></li>
-                        <li><a href="compte.php"> Profile </a></li>
                         <li><a href="contact.php"> Contact </a></li>
                         <li><a href="mes-vaccins.php"> Mes vaccins </a></li>
-                        <li><a href="enfant.php"> Enfant </a></li>
 
 
                     <?php } else {
 
                     }
-
-
+                    
 
                     if(empty($_SESSION['id'])) { ?>
 
